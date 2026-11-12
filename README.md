@@ -1,6 +1,6 @@
 # AgriPheno
 
-Prototype local de phénotypage digital : convertir des images RGB de parcelles en **couverture végétale apparente** avec Excess Green (ExG). Projet pédagogique pour une démonstration en entretien, sans affiliation ni validation par Hiphen.
+Prototype local de phénotypage digital : convertir des images RGB de parcelles en **couverture végétale apparente** avec Excess Green (ExG). 
 
 ## Installation et lancement
 
