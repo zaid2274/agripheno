@@ -1,0 +1,141 @@
+{
+  "created": "2022-06-23T08:52:13.984072+00:00",
+  "modified": "2022-06-23T13:51:55.208002+00:00",
+  "id": 6697343,
+  "conceptrecid": "6697342",
+  "doi": "10.5281/zenodo.6697343",
+  "conceptdoi": "10.5281/zenodo.6697342",
+  "doi_url": "https://doi.org/10.5281/zenodo.6697343",
+  "metadata": {
+    "title": "CoFly-WeedDB: A UAV image dataset for weed detection and species identification",
+    "doi": "10.5281/zenodo.6697343",
+    "publication_date": "2022-06-23",
+    "description": "<p>The CoFly-WeedDB contains 201 RGB images (~436MB) from the attached camera of DJI Phantom Pro 4 from a cotton field in Larissa, Greece during the first stages of plant growth. The RGB images were collected while the Unmanned Aerial Vehicle (UAV) was performing a coverage mission over the field&#39;s area. During the designed mission, the camera angle was adjusted to -87&deg;, vertically with the field. The flight altitude and speed of the UAV were equal to 5m and 3m/s, respectively, aiming to provide a close and clear view of the weed instances.&nbsp; All images have been annotated by expert agronomists using the LabelMe annotation tool, providing the exact boundaries of 3 types of common weeds in this type of crop, namely (i) Johnson grass, (ii) Field bindweed, and (iii) Purslane. The dataset can be used alone and in combination with other datasets to develop AI-based methodologies for automatic weed segmentation and classification purposes.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Marios Krestenitis",
+        "affiliation": "Information Technologies Institute, The Centre for Research & Technology, Hellas, Thessaloniki, 57001, Greece"
+      },
+      {
+        "name": "Emmanuel K. Raptis",
+        "affiliation": "Department of Electrical and Computer Engineering, Democritus University of Thrace, Xanthi, 67100, Greece"
+      },
+      {
+        "name": "Athanasios Ch. Kapoutsis",
+        "affiliation": "Information Technologies Institute, The Centre for Research & Technology, Hellas, Thessaloniki, 57001, Greece"
+      },
+      {
+        "name": "Konstantinos Ioannidis",
+        "affiliation": "Information Technologies Institute, The Centre for Research & Technology, Hellas, Thessaloniki, 57001, Greece"
+      },
+      {
+        "name": "Elias B. Kosmatopoulos",
+        "affiliation": "Department of Electrical and Computer Engineering, Democritus University of Thrace, Xanthi, 67100, Greece"
+      },
+      {
+        "name": "Stefanos Vrochidis",
+        "affiliation": "Information Technologies Institute, The Centre for Research & Technology, Hellas, Thessaloniki, 57001, Greece"
+      },
+      {
+        "name": "Ioannis Kompatsiaris",
+        "affiliation": "Information Technologies Institute, The Centre for Research & Technology, Hellas, Thessaloniki, 57001, Greece"
+      }
+    ],
+    "keywords": [
+      "Precision Agriculture, UAV Dataset, Weed Detection, Deep Convolutional Neural Networks, Semantic Segmentation"
+    ],
+    "version": "1.0",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "communities": [
+      {
+        "id": "m4d"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6697342"
+          }
+        }
+      ]
+    },
+    "notes": "This research has been financed by the European Regional Development Fund of the European Union and Greek national funds through the Operational Program Competitiveness, Entrepreneurship and Innovation, under the call RESEARCH - CREATE - INNOVATE (T1EDK-00636)."
+  },
+  "title": "CoFly-WeedDB: A UAV image dataset for weed detection and species identification",
+  "links": {
+    "self": "https://zenodo.org/api/records/6697343",
+    "self_html": "https://zenodo.org/records/6697343",
+    "preview_html": "https://zenodo.org/records/6697343?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.6697343",
+    "self_doi": "https://doi.org/10.5281/zenodo.6697343",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6697343",
+    "reserve_doi": "https://zenodo.org/api/records/6697343/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/6697342",
+    "parent_html": "https://zenodo.org/records/6697342",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6697342",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6697342",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6697343/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6697343/sequence/default",
+    "files": "https://zenodo.org/api/records/6697343/files",
+    "media_files": "https://zenodo.org/api/records/6697343/media-files",
+    "latest": "https://zenodo.org/api/records/6697343/versions/latest",
+    "latest_html": "https://zenodo.org/records/6697343/latest",
+    "versions": "https://zenodo.org/api/records/6697343/versions",
+    "draft": "https://zenodo.org/api/records/6697343/draft",
+    "access_links": "https://zenodo.org/api/records/6697343/access/links",
+    "access_grants": "https://zenodo.org/api/records/6697343/access/grants",
+    "access_users": "https://zenodo.org/api/records/6697343/access/users",
+    "access_request": "https://zenodo.org/api/records/6697343/access/request",
+    "access": "https://zenodo.org/api/records/6697343/access",
+    "communities": "https://zenodo.org/api/records/6697343/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6697343/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/6697343/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/6697343/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/6697343/quota-increase",
+    "requests": "https://zenodo.org/api/records/6697343/requests"
+  },
+  "updated": "2022-06-23T13:51:55.208002+00:00",
+  "recid": "6697343",
+  "revision": 2,
+  "files": [
+    {
+      "id": "3fc3d8d6-432a-4d85-9dec-1766e737aba1",
+      "key": "CoFly-WeedDB.zip",
+      "size": 1198780322,
+      "checksum": "md5:006db24a62311a9bdf5636b92a8c0da3",
+      "links": {
+        "self": "https://zenodo.org/api/records/6697343/files/CoFly-WeedDB.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "80126"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 3439,
+    "unique_downloads": 1870,
+    "views": 5475,
+    "unique_views": 4988,
+    "version_downloads": 3392,
+    "version_unique_downloads": 1842,
+    "version_unique_views": 4956,
+    "version_views": 5440
+  },
+  "state": "done",
+  "submitted": true
+}

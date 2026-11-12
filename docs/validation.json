@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-12",
+  "environment": "Windows, Python 3.11.9, requirements-lock.txt",
+  "pytest": "57 tests réussis",
+  "pip_check": "Aucune dépendance incompatible",
+  "offline_application": "AppTest sur les dix images installées avec urllib et requests bloqués : résultats identiques au CSV à 0,000001 près ; sélection de deux images et inspection de agri_c217 réussies.",
+  "server_health": "HTTP 200, réponse ok sur 127.0.0.1:8501/_stcore/health",
+  "visual_review": "Dix photographies et leurs superpositions examinées ; trois masques TIFF examinés. Aucune référence validée de végétation totale.",
+  "limits": "AppTest ne remplace pas une validation complète dans un navigateur. Les tests logiciels ne valident pas une performance agronomique terrain."
+}

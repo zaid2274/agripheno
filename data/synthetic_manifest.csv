@@ -1,0 +1,8 @@
+image,source,seed,pixels_valides,couverture_reference_pct
+synthetic_sparse.png,SYNTHETIQUE_NON_REELLE,42,194048,5.320333
+synthetic_medium.png,SYNTHETIQUE_NON_REELLE,42,194048,20.660867
+synthetic_dense.png,SYNTHETIQUE_NON_REELLE,42,194048,46.558068
+synthetic_small.png,SYNTHETIQUE_NON_REELLE,42,11648,31.593407
+synthetic_soil.png,SYNTHETIQUE_NON_REELLE,42,196608,0.000000
+synthetic_green.png,SYNTHETIQUE_NON_REELLE,42,196608,100.000000
+synthetic_black.png,SYNTHETIQUE_NON_REELLE,42,0,

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/results/*
+!data/results/.gitkeep
+!data/results/real_drone_results.csv
+!data/results/real_drone_thresholds.csv
+data/.cache/

@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-11-12",
+  "method": "Inspection humaine des dix photographies préparées et de leurs superpositions au seuil 0,10 ; revue visuelle des trois masques TIFF et vérification des cibles d'annotation dans la documentation des sources.",
+  "images": {
+    "cofly_01": {
+      "observations": "Rangs de cotonnier rapprochés, inter-rangs de sol clair, bandes d'ombre et lignes d'irrigation sombres. Quelques zones centrales ont une teinte plus pâle ou brunâtre ; leur cause n'est pas déterminée. Le cadrage contient culture et végétation d'inter-rang, que le seul ExG ne distingue pas. À 0,10, le masque suit visuellement les rangs verts ; les zones centrales pâles sont moins reprises, et quelques réponses isolées dans les inter-rangs demanderaient une annotation pour être interprétées.",
+      "reference_review": "Les annotations de la source ne couvrent que trois classes d'adventices ; le cotonnier n'est pas annoté comme végétation. Elles sont conservées mais exclues de l'IoU/F1 de végétation totale.",
+      "annotation_scope": "adventices_uniquement",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "4ab368b23aec207682da9b77a1ff17ed51fe65690d1be3ec4e353b649bc46ea1",
+      "annotation_prepared_sha256": "9dcfe7017c18ab999feeed69ae2c1a583140f4f7bb907bed3bb244cd9c75c0af"
+    },
+    "cofly_02": {
+      "observations": "Rangs diagonaux de cotonnier, sol clair visible entre les rangs et ombres sur les côtés des couverts. Le couvert est assez régulier, avec une interruption visible dans un rang à droite. Lignes d'irrigation sombres visibles ; aucune conclusion sur l'état des plantes. À 0,10, le masque reprend les bandes vertes des rangs et leur interruption visible ; cette cohérence visuelle n'est pas un score de précision.",
+      "reference_review": "Annotations d'adventices uniquement : absence d'une référence de végétation totale, donc pas de score IoU/F1.",
+      "annotation_scope": "adventices_uniquement",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "e3cba759b0688abdeca089e8a2aaaba914413e1de238811c435c3cac38bbc298",
+      "annotation_prepared_sha256": "de032ae9764c13e42048af03a592f27eb3ea2ee3c605d5dff62dbb469b2c0b76"
+    },
+    "cofly_03": {
+      "observations": "Vue proche de rangs de cotonnier avec grandes feuilles vertes, inter-rangs de sol sec craquelé et ombres nettes. Une ombre en bas à droite présente une silhouette compatible avec le drone ; cette interprétation reste visuelle. Le cadrage et l'échelle diffèrent des deux autres vues du même champ. À 0,10, les grandes zones feuillées sont reprises et les inter-rangs restent majoritairement non sélectionnés. Les limites des petites feuilles et les zones d'ombre restent à contrôler.",
+      "reference_review": "Annotations d'adventices uniquement ; elles ne servent pas à noter la segmentation de l'ensemble du couvert.",
+      "annotation_scope": "adventices_uniquement",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "86b4be9af42d686970d923ef820337cf1cf110a81e3873067d0f8520cc1b40c3"
+    },
+    "corn_01": {
+      "observations": "Tuile de maïs avec de longues feuilles vertes, certaines portions plus claires ou jaunâtres, beaucoup de sol apparent et des ombres portées très foncées. Les extrémités fines et les pixels de bord feuille/sol constituent des cas difficiles à inspecter. Aucune cause physiologique n'est inférée de la couleur. La superposition à 0,10 suit de nombreuses feuilles, mais présente aussi des réponses ponctuelles sur le fond apparent ; leur nature n'est pas vérifiée par une annotation complète.",
+      "reference_review": "La source fournit des boîtes de détection d'adventices, pas des masques pixel à pixel de végétation totale. Aucun remplissage de boîte ne sert de référence.",
+      "annotation_scope": "boites_adventices",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "bd3253daa0713bbf94a6a1cbf5da9cf5ceef73af2a141822c054413347de4384"
+    },
+    "corn_02": {
+      "observations": "Tuile de maïs où plusieurs feuilles se recouvrent, avec des zones vertes et plus pâles, un fond brun et des ombres marquées au centre. Le recouvrement masque les organes inférieurs. Le seul ExG ne permet pas d'identifier les adventices ni de diagnostiquer les teintes pâles. Le masque à 0,10 reprend les groupes de feuilles et forme de nombreuses petites composantes ; leur présence ne permet pas de compter des plantes ni d'identifier des adventices.",
+      "reference_review": "Boîtes d'adventices uniquement ; aucune évaluation IoU/F1 de végétation totale.",
+      "annotation_scope": "boites_adventices",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "b74b5e27e28db83441c239b278c274d0fbc7c84b26062376477e34cc2541f583"
+    },
+    "corn_03": {
+      "observations": "Tuile de maïs présentant une grande proportion de sol nu, des feuilles étroites vert clair à jaunâtres et des ombres tranchées. Les tissus de faible contraste avec le sol risquent d'être omis selon le seuil ; cette difficulté est à examiner sur la superposition, sans diagnostic de stress. À 0,10, certaines extrémités ou portions très claires visibles ne sont pas colorées dans la superposition. Une annotation indépendante serait nécessaire pour quantifier ces omissions.",
+      "reference_review": "La présence de boîtes dans la source ne constitue pas une annotation de végétation totale.",
+      "annotation_scope": "boites_adventices",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "cb34f64dd6aa56314bb645a27db985645d89a908e1f2ba43643b1425e066d155"
+    },
+    "corn_04": {
+      "observations": "Tuile de maïs avec un groupe de feuilles chevauchantes en haut, un sol brun clair dominant en bas et de longues ombres. Des portions de feuilles ont une teinte plus claire. Les différences de couverture avec une autre tuile peuvent provenir du cadrage ; elles ne prouvent pas une différence de croissance. Le masque à 0,10 suit les longues feuilles, tandis que les détails fins sont parfois discontinus et que les ombres restent largement non sélectionnées.",
+      "reference_review": "Boîtes de détection uniquement ; pas de référence compatible avec la végétation totale.",
+      "annotation_scope": "boites_adventices",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "1164254380ca148e782005d0a7775c21b74975159973649c16a702a089b121a5"
+    },
+    "agri_c217": {
+      "observations": "GeoTIFF photographique d'une zone arborée, avec couronnes vertes séparées, sol brun apparent, longues ombres portées et trous noirs à l'intérieur de certaines couronnes. L'espèce cultivée n'est pas confirmée au niveau image. Les pixels noirs sont exclus, ce qui peut faire varier le dénominateur autour des couronnes ; l'indice ne décrit pas le volume des arbres. À 0,10, les couronnes visibles ne sont pas reprises uniformément et des réponses apparaissent aussi entre les arbres. L'estimation de 14,45 % montre les limites de ce réglage sur cette scène ; aucune exactitude du couvert arboré n'est revendiquée.",
+      "reference_review": "m217 est binaire 0/255, aligné en dimensions, et blanc sur une très grande partie du sol comme sur la végétation ; il est aussi noir sur des trous et bordures. Il ne sépare pas végétation et sol. L'hypothèse emprise/validité reste une interprétation visuelle, non confirmée par les auteurs ; aucune IoU/F1 de végétation totale n'est publiée.",
+      "annotation_scope": "masque_non_vegetation_emprise_presumee",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "68261f2fbeceabcae982fa93deedb2a61c10bc441cc55c75669167edfd6fe3a0",
+      "annotation_prepared_sha256": "25b97014e3625e5f978a5c418290a4a03cffbe266041de494c824215c5944240"
+    },
+    "agri_c108": {
+      "observations": "GeoTIFF photographique avec rangs espacés de petites structures végétales et supports sur un fond largement brun-gris, ainsi que des zones noires sur les bordures et à droite. La culture exacte n'est pas fournie au niveau image. Les très petites structures, les teintes ternes et les zones sombres rendent l'interprétation d'une simple séparation vert/sol délicate. À 0,10, le masque est très morcelé et présente des réponses diffuses sur des zones de fond apparemment nu. L'estimation est particulièrement sensible au seuil et ne doit pas être assimilée à une segmentation validée des petites structures végétales.",
+      "reference_review": "m108 est binaire 0/255 et ses dimensions correspondent au RGB, mais il reste blanc sur les grandes surfaces de sol entre les rangs. Ses contours suivent l'emprise et les trous noirs. L'interprétation comme masque d'emprise/validité est une hypothèse visuelle, non une confirmation des auteurs. Il ne constitue pas une référence de végétation totale ; aucun IoU/F1 n'est calculé contre lui.",
+      "annotation_scope": "masque_non_vegetation_emprise_presumee",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "6b1612189953a56d67dc1836c33522025ec9f70d76c75d59784198d6a30bb435",
+      "annotation_prepared_sha256": "1dad669770296c2913e2c84832d146c65837be5383aa1a4853c2b0adf6352e47"
+    },
+    "agri_c0": {
+      "observations": "GeoTIFF photographique livré par le dépôt, avec bordures noires obliques, rangs de petites structures végétales et de supports sur un sol largement apparent, et une zone arborée à droite. La culture n'est pas identifiée au niveau image dans le dépôt. Les bordures noires sont exclues du calcul. À 0,10, les réponses sont éparses entre les rangs et plus concentrées à droite ; certaines zones de fond apparemment nu sont également colorées. Ce résultat ne peut pas être interprété comme une mesure validée du couvert.",
+      "reference_review": "Le masque m0 est binaire 0/255 et a les mêmes dimensions que l'image, mais il est blanc sur le sol nu comme sur la végétation et suit l'emprise du cadrage. Hypothèse d'un masque d'emprise/validité, non confirmée par les auteurs. Il est incompatible avec une référence de végétation totale et n'est utilisé ni pour l'IoU/F1 ni comme vérité terrain construite par ExG.",
+      "annotation_scope": "masque_non_vegetation_emprise_presumee",
+      "reference_status": "NON_COMPATIBLE",
+      "prepared_sha256": "03453d1f12a004977140ff43eb400ad2402c93f5388afebaa590db73d4721de3",
+      "annotation_prepared_sha256": "354fb26d8a43822273a9077be0dd5da4fbf3c4be5c3e4fb001f409fba1937c5f"
+    }
+  }
+}
